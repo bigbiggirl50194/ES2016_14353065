@@ -8,7 +8,7 @@
 The distributed operation layer (DOL) is a software development framework to program parallel applications. The DOL allows to specify applications based on the Kahn process network model of computation and features a simulation engine based on SystemC. Moreover, the DOL provides an XML-based specification format to describe the implementation of a parallel application on a multi-processor systems, including binding and mapping.
  
 ### How to install
-  1. 安装必要环境
+  1 . 安装必要环境
 
          >$	sudo apt-get update
   
@@ -19,7 +19,7 @@ The distributed operation layer (DOL) is a software development framework to pro
          >$	sudo apt-get install unzip
  
 
-  2. 下载必要文件
+  2 . 下载必要文件
          
         >sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
         
@@ -27,18 +27,18 @@ The distributed operation layer (DOL) is a software development framework to pro
 
 
  
- 3. 解压文件
-     * 新建dol的文件夹   
+  3 . 解压文件
+       * 新建dol的文件夹   
      
-             > $	mkdir dol
-     * 将dolethz.zip解压到 dol文件夹中
+                 > $	mkdir dol
+       * 将dolethz.zip解压到 dol文件夹中
      
-             > $	unzip dol_ethz.zip -d dol
-     * 解压systemc
+                > $	unzip dol_ethz.zip -d dol
+       * 解压systemc
      
-             > $	tar -zxvf systemc-2.3.1.tgz
+               > $	tar -zxvf systemc-2.3.1.tgz
 
- 4. 编译systemc
+  4 . 编译systemc
      * 解压后进入systemc-2.3.1的目录下
      
             >$	cd systemc-2.3.1
@@ -53,6 +53,8 @@ The distributed operation layer (DOL) is a software development framework to pro
             >$	../configure CXX=g++ --disable-async-updates
         
    运行结果如图一所示：
+
+
 ![configure.png](configure.png)
 
 图一
@@ -65,10 +67,13 @@ The distributed operation layer (DOL) is a software development framework to pro
 
           
    编译结束之后目录如图二所示：    
+
 ![ls.png](ls.png)  
 图二
            
    路径结果如图三所示:
+
+
 ![pwd.png](pwd.png)
   图三
 
