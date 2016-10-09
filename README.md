@@ -28,27 +28,29 @@ The distributed operation layer (DOL) is a software development framework to pro
 
  
   3 . 解压文件
-       * 新建dol的文件夹   
+
+   * 新建dol的文件夹   
      
-                 > $	mkdir dol
-       * 将dolethz.zip解压到 dol文件夹中
+               > $	mkdir dol
+   * 将dolethz.zip解压到 dol文件夹中
      
-                > $	unzip dol_ethz.zip -d dol
-       * 解压systemc
+               > $	unzip dol_ethz.zip -d dol
+   * 解压systemc
      
                > $	tar -zxvf systemc-2.3.1.tgz
 
   4 . 编译systemc
-     * 解压后进入systemc-2.3.1的目录下
+
+   * 解压后进入systemc-2.3.1的目录下
      
             >$	cd systemc-2.3.1
-     * 新建一个临时文件夹objdir
+   * 新建一个临时文件夹objdir
      
             >$	mkdir objdir
-     * 进入该文件夹objdir
+   * 进入该文件夹objdir
      
             >$	cd objdir
-     * 运行configure(能根据系统的环境设置一下参数，用于编译)，进行编译，记录路径
+   * 运行configure(能根据系统的环境设置一下参数，用于编译)，进行编译，记录路径
      
             >$	../configure CXX=g++ --disable-async-updates
         
